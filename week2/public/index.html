@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+
+    <h1>Simple Calculator</h1>
+
+    <h2>Sum Calculator</h2>
+    <form action="/sum" method="GET">
+        <label for="num1_sum">Enter first number:</label>
+        <input type="text" id="num1_sum" name="num1" required>
+        <label for="num2_sum">Enter second number:</label>
+        <input type="text" id="num2_sum" name="num2" required>
+        <button type="submit">Calculate Sum</button>
+    </form>
+
+    <h2>Difference Calculator</h2>
+    <form action="/subtract" method="GET">
+        <label for="num1_subtract">Enter first number:</label>
+        <input type="text" id="num1_subtract" name="num1" required>
+        <label for="num2_subtract">Enter second number:</label>
+        <input type="text" id="num2_subtract" name="num2" required>
+        <button type="submit">Calculate Difference</button>
+    </form>
+
+</body>
+</html>
